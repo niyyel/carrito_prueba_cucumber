@@ -1,0 +1,53 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 8,
+        "name": "descripcion antecedente",
+        "description": "    Como usuario xxxxxxx",
+        "type": "background",
+        "keyword": "Antecedentes",
+        "steps": []
+      },
+      {
+        "line": 28,
+        "name": "Validar Filtro parametros",
+        "description": "",
+        "id": "validación-del-filtro-de-la-página-juntoz;validar-filtro-parametros;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "line": 21,
+            "name": "Abrir la pagina Juntoz en el navegador \"chrome\"",
+            "keyword": "Dado "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FEATURE_JUNTOZ"
+          },
+          {
+            "name": "@ESCENARIO02_JUNTOZ_PARAMETROS"
+          }
+        ]
+      }
+    ],
+    "name": "Validación del filtro de la página Juntoz",
+    "description": "  Como usuario de juntoz abro la pagina\n  Quiero hacer la busqueda de un producto\n  Para validar el funcionamiento del filtros",
+    "id": "validación-del-filtro-de-la-página-juntoz",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/Juntoz.feature",
+    "tags": [
+      {
+        "name": "@FEATURE_JUNTOZ",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+@FEATURE_JUNTOZ
+Característica: Validación del filtro de la página Juntoz
+  Como usuario de juntoz abro la pagina
+  Quiero hacer la busqueda de un producto
+  Para validar el funcionamiento del filtros
+
+  @ESCENARIO02_JUNTOZ_PARAMETROS
+  Esquema del escenario: Validar Filtro parametros [90m# src/test/resources/web/Juntoz.feature:20[0m
+    [36mDado Abrir la pagina Juntoz en el navegador "<Navegador>"[0m
+    [36mY Escribir "<Producto>" en el cuadro de busqueda[0m
+    [36mY Hacer click en el botón buscar[0m
+    [36mEntonces Validar que se encuentren resultados[0m
+
+    Ejemplos: 
+
+  Antecedentes: descripcion antecedente [90m# src/test/resources/web/Juntoz.feature:8[0m
+    Como usuario xxxxxxx
+
+  @FEATURE_JUNTOZ @ESCENARIO02_JUNTOZ_PARAMETROS
+  Esquema del escenario: Validar Filtro parametros       [90m# src/test/resources/web/Juntoz.feature:28[0m

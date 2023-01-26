@@ -1,0 +1,45 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 30,
+        "name": "Validar el funcionamiento de la creacion de una cuenta",
+        "description": "",
+        "id": "validar-el-funcionamiento-de-la-creacion-de-una-cuenta-en-la-pagina-demoblaze;validar-el-funcionamiento-de-la-creacion-de-una-cuenta;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "line": 23,
+            "name": "que el usuario ingresa a la pagina demoblaze en el navegador de \"chrome\"",
+            "keyword": "Dado "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DEMOBLAZE_FEATURE"
+          },
+          {
+            "name": "@DEMO_SCENARIO_CASO2_VALIDAR-MENSAJE"
+          }
+        ]
+      }
+    ],
+    "name": "Validar el funcionamiento de la creacion de una cuenta en la pagina demoblaze",
+    "description": "  Como usuario nuevo de la pagina demoblaze\n  Quiero crear una cuenta\n  para validad el funcionamiento de la creacion de una cuenta",
+    "id": "validar-el-funcionamiento-de-la-creacion-de-una-cuenta-en-la-pagina-demoblaze",
+    "keyword": "Característica",
+    "uri": "src/test/resources/web/DemoBlaze .feature",
+    "tags": [
+      {
+        "name": "@DEMOBLAZE_FEATURE",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

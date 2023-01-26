@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Validar el funcionamiento de la creacion de una cuenta en la pagina demoblaze" skipped="0" tests="1" time="0.0" timestamp="2023-01-25 01:44:51"><testcase name="Validar el funcionamiento de la creacion de una cuenta"><failure message="Error al abrir el navegador 'chrome'" type="java.lang.AssertionError">Error al abrir el navegador 'chrome'</failure><system-err>Error al abrir el navegador 'chrome'&#13;
+com.bdd.page.Browser.Start(Browser.java:50)&#13;
+com.bdd.page.DemoBlazePage.queElUsuarioIngresaALaPaginaDemoblazeEnElNavegadorDe(DemoBlazePage.java:27)&#13;
+com.bdd.step.DemoBlazeStep.queElUsuarioIngresaALaPaginaDemoblazeEnElNavegadorDe(DemoBlazeStep.java:13)&#13;
+com.bdd.stepdefinition.DemoBlazeStepDefinition.queElUsuarioIngresaALaPaginaDemoblazeEnElNavegadorDe(DemoBlazeStepDefinition.java:17)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
